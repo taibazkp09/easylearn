@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: #06389d;;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    height: 60px;
+}
+
+    .left{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        width: 40%;
+       
+   
+    }
+    h2{
+        margin-top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+#f{
+    color: rgb(246, 59, 59);
+}
+
+#h{
+    margin-right: 0px;
+}
+#j{
+margin-left: 0px;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+#sign{
+    text-align: center;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    height: 480px;
+    border:2px solid rgb(0, 0, 0);
+    width: 300px;
+border-radius: 30px;
+  
+    margin-top: 30px;
+   font-weight: bold;
+
+
+
+    
+    
+
+
+}
+#new{
+    margin-top: 10px;
+}
+#tet{
+    margin-top: 20px;
+}
+#pass{
+    margin-top: 20px;
+}
+form{
+    margin-left: 25px;
+
+}
+
+.head{
+    display: flex;
+    height:500px ;
+  justify-content: center;
+}
+
+.input{
+    height: 40px;
+    width: 230px;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+   
+    margin-top: 10px;
+    
+}
+.rem{
+    margin-top: 15px;
+
+}
+#link{
+    margin-left: 12px;
+    
+   
+}
+
+#btn{
+    border:2px solid rgb(0, 0, 0);
+    color :white;
+    font-size: 20px;
+    
+    
+    background-color: rgb(0, 8, 223);
+    height:50px ;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+    
+    border-radius: 30px;
+    transition:all 2s ease-in 0.25;
+
+}
+#log{
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(224, 159, 72);
+   
+}
+.reg{
+    margin-top: 15px;
+    font-weight: bold;
+   
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#bca{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 45px;
+    
+}
+.footer{
+  text-align: center;
+    margin-top: 50px;
+}
